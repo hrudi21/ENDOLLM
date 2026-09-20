@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary / OS
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Training / experiment outputs
+outputs/
+runs/
+wandb/
+
+# Local evaluation outputs
+evaluation_outputs/
+phase4_outputs/
+opgagent_outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
