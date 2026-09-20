@@ -1,4 +1,10 @@
+# Core dependencies for ENDOLLM v65.1
+# The integrated frozen vision pipeline and OPGAgent have additional
+# environment-specific dependencies documented in THIRD_PARTY_COMPONENTS.md.
+
 numpy
 torch
 transformers
 sentence-transformers
+accelerate
+bitsandbytes
