@@ -9,6 +9,8 @@ ENDOLLM: An interactive multimodal large language model framework for endodontic
 **Status:** Research prototype / clinician-supervised decision-support system
 
 ---
+Research rationale
+ENDOLLM was developed to investigate a clinically constrained multimodal approach to AI-assisted endodontic interpretation. Rather than relying on unconstrained language-model interpretation of radiographic images, the system combines specialized vision models, target-tooth grounding, structured clinical findings, evidence retrieval, deterministic diagnostic rules, and a vision-language large language model. This architecture is intended to constrain the reasoning space of the language model, improve traceability of radiographic and clinical evidence, preserve diagnostic uncertainty, and reduce unsupported diagnostic statements. The system is designed as a clinical decision-support research prototype and does not replace specialist diagnosis or clinical examination.
 
 ## Overview
 
